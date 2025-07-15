@@ -2063,6 +2063,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"task-3@workspace:tasks/3":
+  version: 0.0.0-use.local
+  resolution: "task-3@workspace:tasks/3"
+  languageName: unknown
+  linkType: soft
+
 "thread-stream@npm:^3.0.0":
   version: 3.1.0
   resolution: "thread-stream@npm:3.1.0"

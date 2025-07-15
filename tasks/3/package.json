@@ -1,0 +1,13 @@
+{
+  "name": "task-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "imports": {
+    "#components/*": "./src/components/*",
+    "#utils/*": "./src/utils/*"
+  }
+}
