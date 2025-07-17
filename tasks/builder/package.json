@@ -8,10 +8,16 @@
     "build": "node index.js ./src/entry.cjs",
     "build:resolve": "node index.js ./resolve/entry.cjs",
     "test": "npx playwright test ./tests/bundle.spec.js",
-    "test:resolve": "yarn build:resolve && npx playwright test ./tests/bundle.spec.js"
+    "test:resolve": "yarn build:resolve && npx playwright test ./tests/bundle.spec.js",
+    "test:ast": "node validate.js"
   },
   "imports": {
     "#const/*": "./resolve/const/*",
     "#utils/*": "./resolve/utils/*"
+  },
+  "devDependencies": {
+    "acorn": "^8.15.0",
+    "astring": "^1.9.0",
+    "estree-walker": "^3.0.3"
   }
 }
