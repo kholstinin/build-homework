@@ -1,0 +1,25 @@
+{
+  "name": "6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:webpack": "NODE_ENV=development webpack",
+    "build:vite": "NODE_ENV=development vite build",
+    "build:esbuild": "NODE_ENV=development node esbuild",
+    "build:rollup": "NODE_ENV=development rollup --config rollup.config.js",
+    "build:all": "yarn build:vite && yarn build:esbuild && yarn build:rollup && yarn build:webpack",
+    "start": "node server.js",
+    "test": "yarn build:all && npx playwright test ./tests/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "^0.25.8",
+    "rollup": "^4.45.1",
+    "vite": "^7.0.6",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
