@@ -7,6 +7,7 @@
     "start": "node server.js",
     "build": "node index.js ./src/entry.cjs",
     "build:resolve": "node index.js ./resolve/entry.cjs",
+    "build:assets": "node index.js ./assets/entry.cjs",
     "test": "npx playwright test ./tests/bundle.spec.js",
     "test:resolve": "yarn build:resolve && npx playwright test ./tests/bundle.spec.js",
     "test:ast": "node validate.js"
