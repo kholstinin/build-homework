@@ -16,7 +16,59 @@ import path from "node:path";
 /**
  * @param {string} entryPath - путь к entry бандлинга
  */
-export function bundle(entryPath) {}
+export function bundle(entryPath) {
+  const resolvedPath = path.resolve(entryPath)
+  const { result, deps } = concatModule(resolvedPath, {})
+
+  const setup = `
+  const modules = {};
+  const deps = ${JSON.stringify(deps)};
+  
+  function customRequire(id) {
+    const module = { exports: {} }
+    function localRequire(spec) {
+      const nextId = deps[id][spec]
+      return customRequire(nextId)
+    }
+    modules[id](localRequire, module, module.exports)
+    return module.exports
+  };
+  `
+
+  const requiredModules = Object.entries(result).map(([modulePath, codeFromModule]) => {
+    return `
+    modules[${JSON.stringify(modulePath)}] = (require, module, exports) => {
+        ${codeFromModule}
+    };
+    `
+  }).join('\n')
+
+  return `
+  ${setup}
+  ${requiredModules}
+  customRequire(${JSON.stringify(resolvedPath)});
+  `
+}
+
+const concatModule = (resolvedPath, deps) => {
+  const parsedFile = fs.readFileSync(resolvedPath, 'utf-8')
+  const rawRequireModules = searchRequireCalls(parsedFile)
+  const requireModules = rawRequireModules.map((module) => path.resolve(path.dirname(resolvedPath), module))
+  deps[resolvedPath] = Object.assign(
+      deps[resolvedPath] || {},
+      ...rawRequireModules.map((spec, i) => ({ [spec]: requireModules[i] }))
+  )
+
+  let result =   {[resolvedPath]: parsedFile}
+  const children = requireModules.map((m) => concatModule(m, deps))
+  if (children.length) {
+    result = Object.assign(result, ...children.map((c) => c.result))
+  }
+
+  return { result, deps }
+}
+
+
 
 /**
  * Функция для поиска в файле вызовов require
