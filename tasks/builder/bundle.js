@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import {resolve as customResolve} from "../3/resolve.js";
 
 /**
  * Примерный алгоритм работы бандлера:
@@ -17,7 +18,9 @@ import path from "node:path";
  * @param {string} entryPath - путь к entry бандлинга
  */
 export function bundle(entryPath) {
+  // const resolvedPath = customResolve(entryPath)
   const resolvedPath = path.resolve(entryPath)
+
   const { result, deps } = concatModule(resolvedPath, {})
 
   const setup = `
@@ -53,7 +56,8 @@ export function bundle(entryPath) {
 const concatModule = (resolvedPath, deps) => {
   const parsedFile = fs.readFileSync(resolvedPath, 'utf-8')
   const rawRequireModules = searchRequireCalls(parsedFile)
-  const requireModules = rawRequireModules.map((module) => path.resolve(path.dirname(resolvedPath), module))
+  const requireModules = rawRequireModules.map((module) => customResolve(module, resolvedPath)) //path.dirname(resolvedPath), module))
+  // const requireModules = rawRequireModules.map((module) => path.resolve(path.dirname(resolvedPath), module))
   deps[resolvedPath] = Object.assign(
       deps[resolvedPath] || {},
       ...rawRequireModules.map((spec, i) => ({ [spec]: requireModules[i] }))
