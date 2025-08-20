@@ -1,0 +1,11 @@
+{
+  "tr_addNewDate": "Lisää uusi päivämäärä",
+  "tr_deepCleaning": "Syväpuhdistus",
+  "tr_noCleaningSchedulesYet": "Sinulla ei ole vielä luotu siivousaikatauluja. Lisää uusi kuukausi aloittaaksesi ensimmäisen aikataulun luomisen.",
+  "tr_addMonthDesc": "Valitse ensin kuukaudet, jotka haluat aikatauluttaa. Sen jälkeen, laadi suunnitelma jokaiselle tarkalle kokouspäivälle.",
+  "tr_responsiblePerson": "Vastuuhenkilö",
+  "tr_deleteDate": "Poista päivämäärä",
+  "tr_deleteDateDecs": "Et voi peruuttaa tätä toimintoa, mutta voit luoda uuden päivämäärän milloin tahansa.",
+  "tr_deleteMonth": "Poista kuukausi",
+  "tr_deleteMonthDesc": "Et voi peruuttaa tätä toimintoa, mutta voit lisätä uuden kuukauden milloin tahansa."
+}

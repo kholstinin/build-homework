@@ -1,0 +1,23 @@
+{
+  "error_app_security_invalid-master-key": "Khoá chủ anh/chị cung cấp không đúng",
+  "error_api_invalid-endpoint": "Tài nguyên anh/chị đang truy cập không khả dụng",
+  "error_api_internal-error": "Đã xảy ra lỗi nội bộ ở phía chúng tôi. Vui lòng thử lại sau",
+  "error_auth_email-already-exists": "Email được cung cấp đã được người dùng hiện tại sử dụng. Mỗi người dùng phải có một email duy nhất",
+  "error_auth_user-not-found": "Không có bản ghi người dùng hiện có nào tương ứng với mã định danh được cung cấp",
+  "error_api_unauthorized-request": "Anh/chị không có quyền truy cập đến tài nguyên này",
+  "error_app_security_invalid-invitation-code-title": "Mã mời không đúng",
+  "error_app_security_invalid-invitation-code": "Vui lòng kiểm tra lại mã mời anh/chị đã cung cấp",
+  "error_app_generic-title": "Đã xảy ra lỗi",
+  "error_app_generic-desc": "Đã xảy ra lỗi. Hãy thử làm mới trang. Nếu không giúp ích, hãy thử khởi động lại Organized. Lưu ý rằng điều này sẽ xóa tất cả dữ liệu của anh/chị chưa đồng bộ hóa.",
+  "error_app_unsupported-browser-title": "Trình duyệt không được hỗ trợ",
+  "error_app_unsupported-browser-desc": "Anh/chị đang sử dụng trình duyệt không được hỗ trợ cho ứng dụng Organized. Vui lòng đảm bảo trình duyệt của anh/chị được cập nhật và chế độ riêng tư hoặc ẩn danh đã tắt. Ngoài ra, hãy thử sử dụng trình duyệt khác.",
+  "error_app_security_user-not-found": "Không tìm thấy người dùng với địa chỉ email này",
+  "error_app_persons_spiritual-status-change": "Không thể thay đổi trạng thái tâm linh",
+  "error_app_persons_spiritual-status-baptized-unbaptized": "Một công bố đã báp-têm không thể được chuyển thành chưa báp-têm.",
+  "error_app_persons_spiritual-status-baptized-midweek": "Một công bố đã được báp-têm không thể được chuyển thành học viên nhóm họp giữa tuần.",
+  "error_app_persons_spiritual-status-unbaptized-midweek": "Một công bố chưa được báp-têm không thể được chuyển thành học viên nhóm họp giữa tuần.",
+  "error_app_data_invalid-file": "Không nhận dạng được tệp anh/chị đang cố gắng nhập.",
+  "error_app_data_encrypted-file": "Không thể nhận dạng tệp vì tệp đã được mã hóa. Hãy tắt mã hóa trước khi xuất tệp và thử lại.",
+  "error_api_bad-request": "Không thể hoàn tất thao tác. Hãy làm mới ứng dụng và thử lại.",
+  "error_api_sync-conflict": "Unable to sync changes from the server. Refresh the app and try again, or sync manually."
+}

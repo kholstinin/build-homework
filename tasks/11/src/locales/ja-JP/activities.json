@@ -1,0 +1,11 @@
+{
+  "tr_addNewDate": "新しい日付を追加する",
+  "tr_deepCleaning": "徹底的な清掃",
+  "tr_noCleaningSchedulesYet": "まだ清掃の予定がありません。新しい月を追加して最初の予定を立ててください。",
+  "tr_addMonthDesc": "まず、予定を立てたい月を選択します。次に、ミーティングを行う予定を作成します。",
+  "tr_responsiblePerson": "責任者",
+  "tr_deleteDate": "日付を削除",
+  "tr_deleteDateDecs": "この操作を取り消すことはできませんが、いつでも新しい日付を作成できます。",
+  "tr_deleteMonth": "月を削除",
+  "tr_deleteMonthDesc": "この操作を取り消すことはできませんが、いつでも新しい月を作成できます。"
+}

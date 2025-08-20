@@ -1,0 +1,23 @@
+{
+  "error_app_security_invalid-master-key": "Glavni ključ, ki si ga vpisal, ni pravilen",
+  "error_api_invalid-endpoint": "Vir, do katerega želiš dostopati, ni na voljo",
+  "error_api_internal-error": "Na naši strani je prišlo do notranje napake. Prosimo, poskusi kasneje",
+  "error_auth_email-already-exists": "Navedeni e-poštni naslov že uporablja drug uporabnik. Vsak uporabnik mora imeti edinstven e-poštni naslov.",
+  "error_auth_user-not-found": "Ni nobene obstoječe uporabniške evidence, ki bi ustrezala navedenemu identifikatorju.",
+  "error_api_unauthorized-request": "Nimaš dostopa do tega vira",
+  "error_app_security_invalid-invitation-code-title": "Napačna koda povabila",
+  "error_app_security_invalid-invitation-code": "Prosimo, znova preveri kodo, ki si jo vpisal",
+  "error_app_generic-title": "Prišlo je do napake",
+  "error_app_generic-desc": "Prišlo je do napake. Poskusi osvežiti stran. Če to ne bo pomagalo, zapri aplikacijo in jo ponovno zaženi. Upoštevaj, da se bodo s tem izbrisali vsi podatki, ki še niso bili sinhronizirani.",
+  "error_app_unsupported-browser-title": "Nepodprt brskalnik",
+  "error_app_unsupported-browser-desc": "Uporabljaš nepodprt brskalnik za aplikacijo Organized. Prosimo, poskrbi, da bo tvoj brskalnik posodobljen in da je način zasebnega brskanja izklopljen. Lahko tudi poskusiš uporabiti drug brskalnik.",
+  "error_app_security_user-not-found": "Noben uporabnik ni najden s tem e-poštnim naslovom",
+  "error_app_persons_spiritual-status-change": "Ni mogoče spremeniti duhovnega statusa",
+  "error_app_persons_spiritual-status-baptized-unbaptized": "Krščenega oznanjevalca ni mogoče spremeniti v nekrščenega.",
+  "error_app_persons_spiritual-status-baptized-midweek": "Krščenega oznanjevalca ni mogoče spremeniti v učenca za shod med tednom.",
+  "error_app_persons_spiritual-status-unbaptized-midweek": "Nekrščenega oznanjevalca ni mogoče spremeniti v učenca za shod med tednom.",
+  "error_app_data_invalid-file": "Ni mogoče prepoznati datoteke, ki jo poskušaš uvoziti.",
+  "error_app_data_encrypted-file": "Datoteke ni mogoče prepoznati, ker je šifrirana. Pred izvozom onemogoči šifriranje in poskusi znova.",
+  "error_api_bad-request": "Postopka ni mogoče dokončati. Osveži aplikacijo in poskusi znova.",
+  "error_api_sync-conflict": "Ni mogoče sinhronizirati sprememb s strežnika. Osveži aplikacijo in poskusi znova ali pa sinhroniziraj ročno."
+}

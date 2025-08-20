@@ -1,0 +1,23 @@
+{
+  "error_app_security_invalid-master-key": "A megadott mesterkulcs érvénytelen",
+  "error_api_invalid-endpoint": "Az elérni kívánt erőforrás nem elérhető",
+  "error_api_internal-error": "Belső hiba történt a mi oldalunkon. Kérjük, próbáld meg később újra",
+  "error_auth_email-already-exists": "A megadott e-mail címet már egy másik felhasználó használja. Minden felhasználónak egyedi e-mail címmel kell rendelkeznie",
+  "error_auth_user-not-found": "A megadott azonosítóhoz nem tartozik felhasználói fiók",
+  "error_api_unauthorized-request": "Nincs jogosultságod ehhez az erőforráshoz",
+  "error_app_security_invalid-invitation-code-title": "Hibás meghívókód",
+  "error_app_security_invalid-invitation-code": "Ellenőrizd a megadott kódot",
+  "error_app_generic-title": "Hiba történt",
+  "error_app_generic-desc": "Hiba történt. Próbáld meg frissíteni az oldalt. Ha ez nem segít, indítsd újra teljesen az Organized alkalmazást. Figyelem: ez törölni fogja az összes nem szinkronizált adatodat.",
+  "error_app_unsupported-browser-title": "Nem támogatott böngésző",
+  "error_app_unsupported-browser-desc": "Nem támogatott böngészőt használsz az Organized alkalmazáshoz. Kérlek, győződj meg róla, hogy a böngésződ naprakész, és hogy a privát vagy inkognitó mód ki van kapcsolva. Alternatívaként próbálj meg egy másik böngészőt használni.",
+  "error_app_security_user-not-found": "Nem található felhasználó ezzel az e-mail címmel",
+  "error_app_persons_spiritual-status-change": "Szolgálati adatok nem módosíthatóak",
+  "error_app_persons_spiritual-status-baptized-unbaptized": "Egy megkeresztelt hírnök nem módosítható kereszteletlenné.",
+  "error_app_persons_spiritual-status-baptized-midweek": "Egy megkeresztelt hírnök nem módosítható hét közbeni összejövetel tanulójává.",
+  "error_app_persons_spiritual-status-unbaptized-midweek": "Egy kereszteletlen hírnök nem módosítható hét közbeni összejövetel tanulójává.",
+  "error_app_data_invalid-file": "Nem sikerült felismerni az importálni kívánt fájlt.",
+  "error_app_data_encrypted-file": "A fájl nem ismerhető fel, mert titkosítva van. Kapcsold ki a titkosítást exportálás előtt, majd próbáld újra.",
+  "error_api_bad-request": "Unable to complete the operation. Refresh the app and try again.",
+  "error_api_sync-conflict": "Unable to sync changes from the server. Refresh the app and try again, or sync manually."
+}
