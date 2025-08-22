@@ -2,6 +2,8 @@ import { Form, Row, Col, Button, Input } from 'antd';
 import { PlusCircleFilled } from '@ant-design/icons';
 import { v4 as uuid } from 'uuid';
 
+import _ from 'lodash';
+
 import './styles.css';
 import { ITodoItem } from 'store/models/todo.model';
 
@@ -41,7 +43,7 @@ export const AddTodoForm = ({ onFormSubmit }: IAddTodoFormProps) => {
         <Col xs={24} sm={24} md={7} lg={5} xl={4}>
           <Button type="primary" htmlType="submit" block>
             <PlusCircleFilled />
-            Add todo
+            {_.upperFirst('add todo')}
           </Button>
         </Col>
       </Row>
