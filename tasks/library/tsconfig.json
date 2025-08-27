@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "node18",
+    "target": "es2022",
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "include": ["src"]
+}

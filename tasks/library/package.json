@@ -1,0 +1,17 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "build": "rollup -c",
+    "build:types": "api-extractor run"
+  },
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.52.11",
+    "rollup": "^4.48.1"
+  }
+}
