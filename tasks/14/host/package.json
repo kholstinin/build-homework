@@ -1,0 +1,26 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test ./tests/*",
+    "serve": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@module-federation/enhanced": "^0.18.3",
+    "@swc/core": "^1.11.24",
+    "html-webpack-plugin": "^5.6.3",
+    "swc-loader": "^0.2.6",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
