@@ -10,7 +10,8 @@
     "build:all": "yarn build:webpack && yarn build:vite && yarn build:esbuild && yarn build:rollup",
     "start": "node server.js",
     "test": "npx playwright test ./tests/todo.spec.js",
-    "test:sm": "npx playwright test ./tests/sm.spec.js"
+    "test:sm": "npx playwright test ./tests/sm.spec.js",
+    "test:hash": "npx playwright test ./tests/hash.spec.js"
   },
   "devDependencies": {
     "@craftamap/esbuild-plugin-html": "^0.9.0",

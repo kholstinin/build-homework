@@ -9,8 +9,10 @@
     "watch": "node watch.js ./watch/entry.cjs",
     "build:resolve": "node index.js ./resolve/entry.cjs",
     "build:assets": "node index.js ./assets/entry.cjs",
+    "build:hash": "node hash.js ./assets/entry.cjs",
     "test": "npx playwright test ./tests/bundle.spec.js",
     "test:watch": "npx playwright test ./tests/watch.spec.js",
+    "test:hash": "npx playwright test ./tests/hash.spec.js",
     "test:resolve": "yarn build:resolve && npx playwright test ./tests/bundle.spec.js",
     "test:ast": "node validate.js"
   },
