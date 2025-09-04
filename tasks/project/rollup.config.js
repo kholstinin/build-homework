@@ -11,10 +11,6 @@ export default {
     dir: './dist/rollup/',
     format: 'esm'
   },
-  replace: ({
-    "process.env.NODE_ENV": JSON.stringify("production"),
-    preventAssignment: true,
-  }),
   plugins: [
     css(),
     nodeResolve(), 
@@ -24,7 +20,6 @@ export default {
     typescript({
         tsconfig: "./tsconfig.json"
     }),
-    swc(),
     html({
         publicPath: "/rollup/",
         template: ({files, publicPath}) => {
@@ -34,8 +29,6 @@ export default {
         const links = (files.css || [])
             .map(({ fileName }) => `<link rel="stylesheet" href="${publicPath}${fileName}">`)
             .join("\n");
-
-            console.log(links);
 
             return `
             <!DOCTYPE html>
