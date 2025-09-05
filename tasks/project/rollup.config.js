@@ -4,6 +4,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import html from "@rollup/plugin-html";
 import typescript from "@rollup/plugin-typescript";
 import swc from "@rollup/plugin-swc";
+import replace from '@rollup/plugin-replace';
 
 export default {
   input: './src/index.tsx',
@@ -11,6 +12,7 @@ export default {
     dir: './dist/rollup/',
     format: 'esm'
   },
+
   plugins: [
     css(),
     nodeResolve(), 
@@ -19,6 +21,9 @@ export default {
     }),
     typescript({
         tsconfig: "./tsconfig.json"
+    }),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
     }),
     html({
         publicPath: "/rollup/",
