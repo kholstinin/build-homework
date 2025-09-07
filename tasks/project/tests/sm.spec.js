@@ -14,7 +14,7 @@ bundlers.forEach((bundlerName) => {
 
       if (
         url.endsWith(".js") ||
-        (bundlerName !== "vite" && url.endsWith(".css"))
+        (!["vite", "rollup"].includes(bundlerName) && url.endsWith(".css"))
       ) {
         assets.push(url);
       }

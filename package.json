@@ -13,7 +13,7 @@
     "prettier": "^3.5.3"
   },
   "workspaces": [
-    "tasks/*"
+    "tasks/**"
   ],
   "packageManager": "yarn@4.9.2"
 }
