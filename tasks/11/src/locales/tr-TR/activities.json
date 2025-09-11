@@ -1,0 +1,11 @@
+{
+  "tr_addNewDate": "Yeni tarih ekle",
+  "tr_deepCleaning": "Detaylı temizlik",
+  "tr_noCleaningSchedulesYet": "Henüz temizlik programı oluşturmadınız. İlk programınızı oluşturmaya başlamak için yeni bir ay ekleyin.",
+  "tr_addMonthDesc": "Öncelikle planlamak istediğiniz ayları seçin. Ardından, her bir ibadet için bir plan oluşturun.",
+  "tr_responsiblePerson": "Sorumlu kişi",
+  "tr_deleteDate": "Tarihi sil",
+  "tr_deleteDateDecs": "Bu işlemi geri alamazsınız, ancak istediğiniz zaman yeni bir tarih oluşturabilirsiniz.",
+  "tr_deleteMonth": "Ayı sil",
+  "tr_deleteMonthDesc": "Bu işlemi geri alamazsınız, ancak istediğiniz zaman yeni bir ay ekleyebilirsiniz."
+}

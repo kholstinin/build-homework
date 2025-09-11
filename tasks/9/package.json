@@ -1,0 +1,22 @@
+{
+  "name": "task-9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:webpack": "NODE_ENV=development webpack",
+    "build:vite": "NODE_ENV=development vite build",
+    "build:esbuild": "NODE_ENV=development node esbuild",
+    "build:rollup": "NODE_ENV=development rollup --config rollup.config.js",
+    "build:all": "yarn build:vite && yarn build:esbuild && yarn build:webpack && yarn build:rollup",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' npx jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "rollup": "^4.40.1",
+    "vite": "^6.3.4",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "yaml": "^2.7.1"
+  }
+}

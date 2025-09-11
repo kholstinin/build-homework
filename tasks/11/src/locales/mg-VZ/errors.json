@@ -1,0 +1,23 @@
+{
+  "error_app_security_invalid-master-key": "Misy diso ty kôdy nampilirinao",
+  "error_api_invalid-endpoint": "Tsy hita ty raha nilanao",
+  "error_api_internal-error": "Baka aminay atoy problemo io. Andramo ndraiky lafa kanikany",
+  "error_auth_email-already-exists": "Tsy azo ampiasà sasy adiresy email io",
+  "error_auth_user-not-found": "Tsy misy data mifandramby amy fanazavà nameanao",
+  "error_api_unauthorized-request": "Tsy mana alala hahita an’io iha",
+  "error_app_security_invalid-invitation-code-title": "Misy diso ty kody fanasà",
+  "error_app_security_invalid-invitation-code": "Hamarino tsara azafady ny kaody nampidirinao",
+  "error_app_generic-title": "Nisy problemo niseho",
+  "error_app_generic-desc": "Nisy problemo niseho ka azonao ampoly sokafa pejy io. Laha mbo tsy mety, le ampolio baka amy voalohany mihintsy Organized io. Hifafa iaby ze data iaby mbo tsy natao mise a Jour laha mifily an'io iha.",
+  "error_app_unsupported-browser-title": "Programa tsy mahazaka Organized",
+  "error_app_unsupported-browser-desc": "Programa tsy mety amy Organized ampiasanao toy. Anovy azo antoky hoe vita fanavaoza soa tse aloha raha toy, sady tsy mampiasa navigation privée iha. Azonao atao koa ty manandra mampiasa programa hafa fanentea internet.",
+  "error_app_security_user-not-found": "Tsy misy konty hita mifandramby amy email io",
+  "error_app_persons_spiritual-status-change": "Tsy afaky ovà ty tombontsoam-panompoa",
+  "error_app_persons_spiritual-status-baptized-unbaptized": "Tsy afaky ovà ho tsy vita batisa ze fa vita batisa.",
+  "error_app_persons_spiritual-status-baptized-midweek": "Tsy afaky ovà ho mpianatsy fivoria andavanandro ze fa vita batisa.",
+  "error_app_persons_spiritual-status-unbaptized-midweek": "Tsy afaky ovà ho mpianatsy fivoria andavanandro ze mbo tsy vita batisa.",
+  "error_app_data_invalid-file": "Tsy mety ampiliry data nifilinao io.",
+  "error_app_data_encrypted-file": "Tsy nety ny fampidirana satria mbola misy fiarovana io rakitra io. Miverena maka rakitra vaovao ary ataovy azo antoka hoe tsy misy fiarovana izany.",
+  "error_api_bad-request": "Nisy olana niseho ka tsy lasa ny fangatahana. Avereno sokafana ilay programa dia andramo indray.",
+  "error_api_sync-conflict": "Nisy olana ka tsy vita ny fampifanitsiana. Avereno sokafana ilay programa dia andramo indray, na tsindrio ilay fampifanitsiana."
+}

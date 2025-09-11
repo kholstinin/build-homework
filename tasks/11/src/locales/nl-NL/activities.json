@@ -1,0 +1,11 @@
+{
+  "tr_addNewDate": "Nieuwe datum toevoegen",
+  "tr_deepCleaning": "Groot onderhoud",
+  "tr_noCleaningSchedulesYet": "Je hebt nog geen schoonmaakplanning aangemaakt. Voeg een nieuwe maand toe om je eerste planning te maken.",
+  "tr_addMonthDesc": "Kies eerst de maanden die je wilt plannen. Maak daarna een plan voor elke specifieke vergaderdatum.",
+  "tr_responsiblePerson": "Verantwoordelijke persoon",
+  "tr_deleteDate": "Verwijder de datum",
+  "tr_deleteDateDecs": "Je kan deze actie niet ongedaan maken, maar je kan op elk moment een nieuwe datum aanmaken.",
+  "tr_deleteMonth": "Verwijder de maand",
+  "tr_deleteMonthDesc": "Je kan deze actie niet ongedaan maken, maar je kan op elk moment een nieuwe maand toevoegen."
+}

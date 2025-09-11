@@ -1,0 +1,23 @@
+{
+  "error_app_security_invalid-master-key": "Sisestatud master võti on vale",
+  "error_api_invalid-endpoint": "Ressurss, millele soovid ligi pääseda, ei ole saadaval",
+  "error_api_internal-error": "Meie poolt tekkis sisemine viga. Palun proovi hiljem uuesti",
+  "error_auth_email-already-exists": "Sisestatud e-mail on juba kellegi teise poolt kasutusel. Igal kasutajal peab olema unikaalne e-maili aadress",
+  "error_auth_user-not-found": "Esitatud identifikaatorile vastavat kasutajat ei ole olemas",
+  "error_api_unauthorized-request": "Sul ei ole ressursi ligipääsemiseks õigusi",
+  "error_app_security_invalid-invitation-code-title": "Vale kutsekood",
+  "error_app_security_invalid-invitation-code": "Palun kontrolli uuesti sisestatud koodi",
+  "error_app_generic-title": "Ilmnes viga",
+  "error_app_generic-desc": "Ilmnes viga. Proovi lehte värskendada. Kui see ei aita, proovi Organizedit täielikult taaskäivitada. Pange tähele, et see kustutab kõik sinu sünkroniseerimata andmed.",
+  "error_app_unsupported-browser-title": "Toetamata brauser",
+  "error_app_unsupported-browser-desc": "Sa kasutad Organizedi rakendusele mittetoetatud brauserit. Palun veendu, et su brauser on ajakohane ja et privaatne või inkognito režiim on välja lülitatud. Alternatiivselt proovi kasutada teist brauserit.",
+  "error_app_security_user-not-found": "Selle e-posti aadressiga kasutajat ei leitud",
+  "error_app_persons_spiritual-status-change": "Vaimset staatust ei saa muuta",
+  "error_app_persons_spiritual-status-baptized-unbaptized": "Ristitud kuulutajat ei saa muuta ristimata kuulutajaks.",
+  "error_app_persons_spiritual-status-baptized-midweek": "Ristitud kuulutajat ei saa muuta nädalasisese koosoleku õpilaseks.",
+  "error_app_persons_spiritual-status-unbaptized-midweek": "Ristimata kuulutajat ei saa muuta nädalasisese koosoleku õpilaseks.",
+  "error_app_data_invalid-file": "Ei suutnud tuvastada faili, mida proovisid importida.",
+  "error_app_data_encrypted-file": "Faili ei ole võimalik ära tunda, sest see on krüpteeritud. Lülitage krüpteerimine enne eksportimist välja ja proovige uuesti.",
+  "error_api_bad-request": "Toimingut ei ole võimalik lõpule viia. Värskenda rakendust ja proovi uuesti.",
+  "error_api_sync-conflict": "Serverist ei ole võimalik muudatusi sünkroonida. Värskenda rakendust ja proovi uuesti või sünkrooni käsitsi."
+}

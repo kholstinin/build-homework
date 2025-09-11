@@ -1,0 +1,11 @@
+{
+  "tr_addNewDate": "Aggiungi nuova data",
+  "tr_deepCleaning": "Pulizie generali",
+  "tr_noCleaningSchedulesYet": "Non hai ancora creato programmi di pulizia. Aggiungi un nuovo mese per iniziare a creare il tuo primo programma.",
+  "tr_addMonthDesc": "Per prima cosa, scegli i mesi che vuoi pianificare. Poi, crea un piano specifico per ciascuna riunione.",
+  "tr_responsiblePerson": "Persona responsabile",
+  "tr_deleteDate": "Elimina la data",
+  "tr_deleteDateDecs": "Non è possibile annullare questa azione, ma puoi creare una nuova data in qualsiasi momento.",
+  "tr_deleteMonth": "Elimina il mese",
+  "tr_deleteMonthDesc": "Non puoi annullare questa azione, ma puoi aggiungere un nuovo mese in qualsiasi momento."
+}

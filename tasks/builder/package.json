@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node server.js",
     "build": "node index.js ./src/entry.cjs",
+    "watch": "node watch.js ./watch/entry.cjs",
     "build:resolve": "node index.js ./resolve/entry.cjs",
+    "build:assets": "node index.js ./assets/entry.cjs",
     "test": "npx playwright test ./tests/bundle.spec.js",
+    "test:watch": "npx playwright test ./tests/watch.spec.js",
     "test:resolve": "yarn build:resolve && npx playwright test ./tests/bundle.spec.js",
     "test:ast": "node validate.js"
   },
@@ -19,5 +22,8 @@
     "acorn": "^8.15.0",
     "astring": "^1.9.0",
     "estree-walker": "^3.0.3"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3"
   }
 }

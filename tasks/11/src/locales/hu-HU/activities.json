@@ -1,0 +1,11 @@
+{
+  "tr_addNewDate": "Új dátum hozzáadása",
+  "tr_deepCleaning": "Alapos takarítás",
+  "tr_noCleaningSchedulesYet": "Még nem hoztál létre takarítási beosztást. Adj hozzá egy új hónapot, hogy elkészíthesd az első beosztást.",
+  "tr_addMonthDesc": "Először válaszd ki azokat a hónapokat, amelyeket ütemezni szeretnél. Ezután hozz létre tervet az egyes összejöveteli időpontokra.",
+  "tr_responsiblePerson": "Felelős személy",
+  "tr_deleteDate": "Dátum törlése",
+  "tr_deleteDateDecs": "Ezt a műveletet nem lehet visszavonni, de bármikor létrehozhatsz egy új dátumot.",
+  "tr_deleteMonth": "Hónap törlése",
+  "tr_deleteMonthDesc": "Ezt a műveletet nem lehet visszavonni, de bármikor hozzáadhatsz egy új hónapot."
+}

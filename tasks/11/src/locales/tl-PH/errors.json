@@ -1,0 +1,23 @@
+{
+  "error_app_security_invalid-master-key": "Mali ang master key",
+  "error_api_invalid-endpoint": "Hindi pa ito available",
+  "error_api_internal-error": "Mayroong internal error sa amin. Subukan mamaya",
+  "error_auth_email-already-exists": "Ginagamit na ibang user ang email na binigay. Kailangang may sariling email ang bawat user",
+  "error_auth_user-not-found": "Walang record ang user sa ibinigay na impormasyon",
+  "error_api_unauthorized-request": "Ikaw ay walang access",
+  "error_app_security_invalid-invitation-code-title": "Maling invitation code",
+  "error_app_security_invalid-invitation-code": "Siguraduhing wasto ang code na ibinigay",
+  "error_app_generic-title": "Nagkaroon ng error",
+  "error_app_generic-desc": "Nagkaroon ng error. Subukang i-refresh ang page. Kung hindi ito nakatulong, subukang i-restart ang Organized. Tandaan, mawawala lahat ng hindi nai-sync na data.",
+  "error_app_unsupported-browser-title": "Unsupported browser",
+  "error_app_unsupported-browser-desc": "Hindi suportado ang browser na ginagamit para sa Organized app. Siguraduhing updated ang iyong browser at hindi naka-private o incognito mode. Puwede rin na gumamit ng ibang browser.",
+  "error_app_security_user-not-found": "Walang user na nakita sa email address na ito",
+  "error_app_persons_spiritual-status-change": "Hindi maaaring baguhin ang espirituwal na kalagayan",
+  "error_app_persons_spiritual-status-baptized-unbaptized": "Hindi maaaring baguhin ang isang baptized publisher at gawing unbaptized.",
+  "error_app_persons_spiritual-status-baptized-midweek": "Hindi maaring gawing estudyante sa midweek ang bautisadong publisher.",
+  "error_app_persons_spiritual-status-unbaptized-midweek": "Hindi maaring gawing estudyante sa midweek ang di-bautisadong publisher.",
+  "error_app_data_invalid-file": "Hindi makilala ang file na sinusubukan mong i-import.",
+  "error_app_data_encrypted-file": "Hindi ma-identify ang file dahil encrypted ito. I-disable muna ang encryption bago i-export at ulitin ang ito.",
+  "error_api_bad-request": "Hindi makumpleto ang ginagawa. I-refresh ang app at subukang muli.",
+  "error_api_sync-conflict": "Hindi mai-sync ang mga pagbabago mula sa server. I-refresh ang app at subukang muli, o i-sync nang manu-mano.\n\n"
+}

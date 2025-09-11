@@ -1,0 +1,13 @@
+{
+  "name": "task-10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "fast-glob": "^3.3.3"
+  }
+}
