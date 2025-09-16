@@ -33,5 +33,24 @@ export default {
 </html>`;
       },
     }),
+    url({
+      include: ["**/logo.svg", "**/*.inline.svg"],
+    }),
+    url({
+      include: ["**/avatar.svg", "**/illustration.png"],
+      limit: 0, 
+      fileName: "assets/[name][extname]",  
+      publicPath: "http://localhost:3000/rollup/",       
+    }),
+    url({
+      include: ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.svg"],
+      exclude: ["**/logo.svg", "**/*.inline.svg", "**/avatar.svg", "**/illustration.png"],
+      limit: 5 * 1024,
+      fileName: "assets/[name][extname]",
+      publicPath: "http://localhost:3000/rollup/",
+    }),
+    string({
+      include: ["**/*.ejs", "**/*.json"],
+    })
   ],
 };

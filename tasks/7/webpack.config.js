@@ -27,7 +27,29 @@ const config = {
     }),
   ],
   module: {
-    rules: [],
+    rules: [
+      {
+        test: /\.svg$/,
+        type: 'asset',
+        parser: {
+         dataUrlCondition: {
+           maxSize: 5 * 1024
+         }
+       }
+      },
+      {
+        resourceQuery: /inline/,
+        type: 'asset/inline'  
+      },
+      {
+        resourceQuery: /raw/,
+        type: 'asset/source'  
+      },
+      {
+        test: /\.(png)$/,
+        type: 'asset/resource'
+      },
+  ],
   },
 };
 
